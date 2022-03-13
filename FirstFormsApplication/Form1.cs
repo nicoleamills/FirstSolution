@@ -23,17 +23,17 @@ namespace FirstFormsApplication
             num1 = Convert.ToInt32(this.txtFirst.Text);
             num2 = Convert.ToInt32(this.txtSecond.Text);
             String operation = Convert.ToString(txtThird.Text);
-            if (operation.Equals("+"))
+            if (operation.Equals("1"))
             {
                 result = num1 + num2;
                 lbl.Text = result.ToString();
             }
-            else if (operation.Equals("-"))
+            else if (operation.Equals("2"))
             {
                 result = num1 - num2;
                 lbl.Text = result.ToString();
             }
-            else if (operation.Equals("*"))
+            else if (operation.Equals("3"))
             {
                 result = num1 * num2;
                 lbl.Text = result.ToString();
