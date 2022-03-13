@@ -28,65 +28,101 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.button = new System.Windows.Forms.Button();
+            this.txtFirst = new System.Windows.Forms.TextBox();
+            this.txtSecond = new System.Windows.Forms.TextBox();
+            this.txtThird = new System.Windows.Forms.TextBox();
+            this.lbl = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // button
             // 
-            this.button1.Location = new System.Drawing.Point(271, 187);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button.Location = new System.Drawing.Point(289, 216);
+            this.button.Name = "button";
+            this.button.Size = new System.Drawing.Size(100, 23);
+            this.button.TabIndex = 0;
+            this.button.Text = "Calculate";
+            this.button.UseVisualStyleBackColor = true;
+            this.button.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox1
+            // txtFirst
             // 
-            this.textBox1.Location = new System.Drawing.Point(271, 90);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 23);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtFirst.Location = new System.Drawing.Point(289, 90);
+            this.txtFirst.Name = "txtFirst";
+            this.txtFirst.Size = new System.Drawing.Size(100, 23);
+            this.txtFirst.TabIndex = 1;
+            this.txtFirst.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // textBox2
+            // txtSecond
             // 
-            this.textBox2.Location = new System.Drawing.Point(271, 119);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 23);
-            this.textBox2.TabIndex = 2;
+            this.txtSecond.Location = new System.Drawing.Point(289, 122);
+            this.txtSecond.Name = "txtSecond";
+            this.txtSecond.Size = new System.Drawing.Size(100, 23);
+            this.txtSecond.TabIndex = 2;
             // 
-            // textBox3
+            // txtThird
             // 
-            this.textBox3.Location = new System.Drawing.Point(271, 148);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 23);
-            this.textBox3.TabIndex = 3;
+            this.txtThird.Location = new System.Drawing.Point(289, 187);
+            this.txtThird.Name = "txtThird";
+            this.txtThird.Size = new System.Drawing.Size(100, 23);
+            this.txtThird.TabIndex = 3;
             // 
-            // label1
+            // lbl
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(271, 239);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 15);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "label1";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.lbl.AutoSize = true;
+            this.lbl.Location = new System.Drawing.Point(289, 257);
+            this.lbl.Name = "lbl";
+            this.lbl.Size = new System.Drawing.Size(38, 15);
+            this.lbl.TabIndex = 4;
+            this.lbl.Text = "label1";
+            this.lbl.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(94, 93);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(171, 15);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Please enter your first number: ";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(94, 125);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(189, 15);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Please enter your second number: ";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(94, 159);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(439, 15);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Select a number for the operation: 1. Addition, 2. Subtraction, or 3. Multiplicat" +
+    "ion: ";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lbl);
+            this.Controls.Add(this.txtThird);
+            this.Controls.Add(this.txtSecond);
+            this.Controls.Add(this.txtFirst);
+            this.Controls.Add(this.button);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -96,10 +132,13 @@
 
         #endregion
 
-        private Button button1;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private Label label1;
+        private Button button;
+        private TextBox txtFirst;
+        private TextBox txtSecond;
+        private TextBox txtThird;
+        private Label lbl;
+        private Label label2;
+        private Label label3;
+        private Label label4;
     }
 }
