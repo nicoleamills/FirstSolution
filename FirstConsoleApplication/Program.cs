@@ -15,7 +15,7 @@ namespace TwoNumbers
             num2 = Convert.ToInt32(Console.ReadLine());
 
             // Select an mathematical operation
-            Console.WriteLine("Select an operation: 1. Addition, 2. Subtraction, or 3. Multiplication: ");
+            Console.WriteLine("Select a number for the operation: 1. Addition, 2. Subtraction, or 3. Multiplication: ");
             int operation = Convert.ToInt32(Console.ReadLine());
 
             // Math operation selection
@@ -41,7 +41,6 @@ namespace TwoNumbers
 
             else
                 Console.Write("Invalid input.");
-            Console.ReadLine();
         }
     }
 }
