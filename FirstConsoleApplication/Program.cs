@@ -22,17 +22,21 @@ namespace TwoNumbers
             if (operation == 1)
             {
                 result = num1 + num2;
-                Console.WriteLine("Addition selected. Sum = " + result.ToString());
+                Console.WriteLine("Addition selected. " + num1 + " + " + num2 + " = " + result.ToString());
             }
 
             else if (operation == 2)
             {
                 result = num1 - num2;
+                Console.WriteLine("Subtraction selected. " + num1 + " - " + num2 + " = " + result.ToString());
+
             }
 
             else if (operation == 3)
             {
                 result = num1 * num2;
+                Console.WriteLine("Multiplication selected. " + num1 + " * " + num2 + " = " + result.ToString());
+
             }
 
             else
