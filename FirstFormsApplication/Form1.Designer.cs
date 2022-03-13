@@ -75,9 +75,9 @@
             this.lbl.AutoSize = true;
             this.lbl.Location = new System.Drawing.Point(289, 257);
             this.lbl.Name = "lbl";
-            this.lbl.Size = new System.Drawing.Size(38, 15);
+            this.lbl.Size = new System.Drawing.Size(39, 15);
             this.lbl.TabIndex = 4;
-            this.lbl.Text = "label1";
+            this.lbl.Text = "Result";
             this.lbl.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
@@ -124,7 +124,7 @@
             this.Controls.Add(this.txtFirst);
             this.Controls.Add(this.button);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Form Application";
             this.ResumeLayout(false);
             this.PerformLayout();
 
